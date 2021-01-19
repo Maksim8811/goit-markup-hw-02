@@ -25,6 +25,14 @@ body {
   color: var(--accent-color);
 }
 
+.navigation-list {
+  list-style-type: none;
+}
+
+.contacts-list {
+  list-style-type: none;
+}
+
 .logo-name {
   font-family: var(--text-logo);
   font-weight: 700;
@@ -83,6 +91,7 @@ body {
   font-size: 44px;
   line-height: 1.163;
   text-align: center;
+  text-transform: uppercase;
   letter-spacing: 0.06em;
   /*color: #ffffff;*/
 }
@@ -104,11 +113,16 @@ body {
 
 /*========FEATURES========*/
 
+.features-list {
+  list-style-type: none;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-color);
 }
 
@@ -133,6 +147,10 @@ body {
   color: var(--title-color);
 }
 
+.occupation-list {
+  list-style-type: none;
+}
+
 /*========END OCCUPATION========*/
 
 /*========TEAM========*/
@@ -144,6 +162,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+}
+
+.team-list {
+  list-style-type: none;
 }
 
 .team-list-name {
@@ -165,6 +187,10 @@ body {
 /*========END TEAM========*/
 
 /*========FOOTER========*/
+
+.address-list {
+  list-style-type: none;
+}
 
 .address-link-map {
   font-weight: 400;
@@ -216,6 +242,9 @@ body {
 
 /*========BUTTONS========*/
 
+.buttons-list {
+  list-style-type: none;
+}
 .button-second-page {
   font-family: var(--text-font);
   font-weight: 500;
@@ -232,10 +261,6 @@ body {
   background: var(--accent-color);
   cursor: pointer;
 }
-
-/*========END BUTTONS========*/
-
-/*========PORTFOLIO========*/
 
 .link-img:hover,
 .link-img:focus {
@@ -266,6 +291,6 @@ body {
   text-decoration: none;
 }
 
-/*========END PORTFOLIO========*/
+/*========END BUTTONS========*/
 
 /*===END SECOND LATTER===*/
